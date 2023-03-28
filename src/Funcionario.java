@@ -1,7 +1,7 @@
 public class Funcionario {
     private String nome;
     private String cpf;
-    protected double salario;
+    private double salario;
     private int cargo = 0; //Funcionario 0 - Comum, 1 - Gerente, 2 - Diretor
 
 
