@@ -1,4 +1,4 @@
-public class Gerente extends FuncionarioAutenticavel {
+public abstract class FuncionarioAutenticavel extends Funcionario{
     private int senha;
 
     public void setSenha(int senha) {
@@ -12,9 +12,4 @@ public class Gerente extends FuncionarioAutenticavel {
             return false;
         }
     }
-
-    public double getBonificacao() {
-        return super.getSalario();
-    }
-
 }
